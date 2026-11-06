@@ -1,0 +1,6 @@
+{
+  "name": "Kodachi Cast - Screen Mirroring for Linux Kodachi",
+  "description": "High-security screen mirroring, WebRTC streaming, and privacy redaction console tailored for Linux Kodachi environments.",
+  "requestFramePermissions": ["display-capture", "camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

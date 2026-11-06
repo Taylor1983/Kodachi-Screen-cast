@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)" />
+  <rect width="504" height="504" x="4" y="4" rx="124" fill="none" stroke="#1e293b" stroke-width="4" />
+
+  <!-- Shield Base Contour -->
+  <path d="M256 96 L376 144 V252 C376 332 324 400 256 424 C188 400 136 332 136 252 V144 Z" 
+        fill="#0f172a" stroke="url(#accent)" stroke-width="12" stroke-linejoin="round" />
+
+  <!-- Central Cast Screen Display Icon -->
+  <rect x="186" y="180" width="140" height="96" rx="12" fill="#020617" stroke="#38bdf8" stroke-width="8" />
+  <path d="M226 276 L216 304 H296 L286 276" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <line x1="206" y1="304" x2="306" y2="304" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Cast Waves / Tor Onion Layers in Screen -->
+  <path d="M198 252 A 16 16 0 0 1 214 268" stroke="url(#glow)" stroke-width="6" stroke-linecap="round" fill="none" />
+  <path d="M198 236 A 32 32 0 0 1 230 268" stroke="url(#glow)" stroke-width="6" stroke-linecap="round" fill="none" />
+  <path d="M198 220 A 48 48 0 0 1 246 268" stroke="url(#glow)" stroke-width="6" stroke-linecap="round" fill="none" />
+
+  <!-- Lock / Privacy Symbol in Shield Base -->
+  <circle cx="256" cy="354" r="8" fill="#10b981" />
+</svg>
